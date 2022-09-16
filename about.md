@@ -2,44 +2,29 @@
 title: About
 layout: page
 ---
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+![figure](/assets/images/IMG_1091.jpg)
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Hello, I'm the master student at NTHU physics who is studying the theoretical physics. My recent search is on the non-Hermitian physics which can described the open quantum system effectively. I'm interested on topological property on toplogicla system with non-Hermicity which is defferent from the conventional topological system. In order to dicuss that what's happened to physics observables with dissapation. I'm also interested on superconductor and graphene physics.
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>Education</h2>
 
-<h2>Skills</h2>
+- Ming-Dao High School (MDHS) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2013/09-2016/08 
+- National Changhua University of Education (NCUE)&emsp; 2016/09-2020/08
+- National Tsing-Hua University (NTHU)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2020/09-Present
 
+<h2>Teaching Expereience</h2>
+
+- General Physics (Undergruate course) &ensp;&nbsp;&nbsp;&nbsp;&nbsp;&ensp;&ensp;&nbsp;&emsp;&ensp;&ensp;&ensp;&ensp;&ensp; 2019/09-2020/06
+- Mathematical Physics (Undergruate course) &nbsp;&nbsp;&emsp;&ensp;&emsp;&emsp; 2019/09-2020/06
+
+
+<h2>Program Langauge</h2>
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>Fortran (Intermediate): For effecient numerical calculation.</li>
+	<li>Mathematica (Intermediate): For symbolic calculation.</li>
+	<li>Latex (Intermediate): For writting paper ,thesis and slides.</li>
+        <li>Python (Intermediate): For numerical calculation with package.</li>
+        <li>C/C++ (Beginner): For fun.</li>
 </ul>
 
 <h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
