@@ -12,7 +12,7 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
 - National Changhua University of Education (NCUE)&emsp; 2016/09-2020/08
 - National Tsing-Hua University (NTHU)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2020/09-Present
 
-<h2>Teaching Expereience</h2>
+<h2>Teaching Assistant Expereience</h2>
 
 - General Physics (Undergruate course) &ensp;&nbsp;&nbsp;&nbsp;&nbsp;&ensp;&ensp;&nbsp;&emsp;&ensp;&ensp;&ensp;&ensp;&ensp; 2019/09-2020/06
 - Mathematical Physics (Undergruate course) &nbsp;&nbsp;&emsp;&ensp;&emsp;&emsp; 2019/09-2020/06
