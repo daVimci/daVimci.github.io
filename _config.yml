@@ -31,7 +31,7 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [blog, project, physics] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 facebook: profile.php?id=100000355047320
@@ -42,23 +42,17 @@ github: daVimci
 email: wade870227@gmail.com
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+  chiawei:
+    name: Chia-Wei Wei
     external-image: false
-    picture: assets/images/2405467.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    picture: assets/images/IMG_1099.JPG
+    twitter: ChiaWei27
+    facebook: profile.php?id=100000355047320
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
@@ -74,6 +68,7 @@ projects: true
 # if you don't need "about" or "blog", comment them out below
 about: true
 blog: true
+physics: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -85,7 +80,7 @@ show-tags: true
 related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+post-advance-links: [blog, physics]
 
 # show author block at the end of a post ?
 show-author: true
