@@ -31,7 +31,7 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: github # enter this from your disqus account
-  categories: [blog, project, physics] # only show disqus for posts that have these categories
+  categories: [blog, projects, physics] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 facebook: profile.php?id=100000355047320
@@ -56,11 +56,14 @@ width: large
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
-  enabled: false
+  enabled: true
   sort_reverse: true # display recent posts first
   title: ":title" # Changing this will mess up the header display logic
-  per_page: 5
+  per_page: 15
+  limit: 0
   permalink: "/:num/" # pagination link that will be appended
+  debug: true
+  sort_field: 'date'
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
@@ -80,7 +83,7 @@ show-tags: true
 related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog, physics]
+post-advance-links: [physics, blog]
 
 # show author block at the end of a post ?
 show-author: true
