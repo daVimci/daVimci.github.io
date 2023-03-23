@@ -10,7 +10,7 @@ bio: A master sudent at National Tsing-Hua University studying physics.
 external-image: false
 picture: assets/images/IMG_1099.JPG
 
-# your site color theme, true for dark theme, 
+# your site color theme, true for dark theme,
 # false to light theme, auto to switch with system.
 dark-theme: false
 
@@ -30,24 +30,25 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: github # enter this from your disqus account
-  categories: [blog, projects, physics] # only show disqus for posts that have these categories
+    shortname: github # enter this from your disqus account
+    categories: [blog, projects, physics] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: profile.php?id=100000355047320
-  #twitter: mytwitter
-  #instagram: myinstagram
-  #linkedin: mylinkedin
+facebook:
+    profile.php?id=100000355047320
+    #twitter: mytwitter
+    #instagram: myinstagram
+    #linkedin: mylinkedin
 github: daVimci
 email: wade870227@gmail.com
 
 authors:
-  chiawei:
-    name: Chia-Wei Wei
-    external-image: false
-    picture: assets/images/IMG_1099.JPG
-    twitter: ChiaWei27
-    facebook: profile.php?id=100000355047320
+    chiawei:
+        name: Chia-Wei Wei
+        external-image: false
+        picture: assets/images/IMG_1099.JPG
+        twitter: ChiaWei27
+        facebook: profile.php?id=100000355047320
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -56,14 +57,14 @@ width: large
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
-  enabled: false
-  sort_reverse: true # display recent posts first
-  title: ":title" # Changing this will mess up the header display logic
-  per_page: 15
-  limit: 0
-  permalink: "/:num/" # pagination link that will be appended
-  debug: true
-  sort_field: 'date'
+    enabled: false
+    sort_reverse: true # display recent posts first
+    title: ":title" # Changing this will mess up the header display logic
+    per_page: 15
+    limit: 0
+    permalink: "/:num/" # pagination link that will be appended
+    debug: true
+    sort_field: "date"
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
@@ -93,33 +94,26 @@ animation: true
 
 # add default values to specific pages or layouts
 defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      layout: "post"
-    values:
-      # setting all post to not hidden by default,
-      # can be overridden in the front matter for a specific post
-      hidden: false
+    - scope:
+          path: "" # an empty string here means all files in the project
+          layout: "post"
+      values:
+          # setting all post to not hidden by default,
+          # can be overridden in the front matter for a specific post
+          hidden: false
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-paginate-v2
-  - jekyll-admin
+    - jekyll-seo-tag
+    - jekyll-gist
+    - jekyll-feed
+    - jemoji
+    - jekyll-paginate-v2
+    - jekyll-admin
 
 compress_html:
-  ignore:
-    envs:
-      - development
-      - stage
+    ignore:
+        envs:
+            - development
+            - stage
 
-exclude:
-  [
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "FAQ.md",
-    "vendor",
-  ]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "FAQ.md", "vendor"]

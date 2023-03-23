@@ -3,13 +3,24 @@ title: About
 layout: page
 ---
 
-<img src="/assets/images/My-project.jpg" alt="selfie" height="450px"/>
+<style>
+.img{
+    -webkit-filter: drop-shadow(8px 8px 10px #000); /* Safari */
+    filter: drop-shadow(8px 8px 10px #000);
+}
+</style>
 
-<p style="text-align:left">
+<div class="img">
+<img src="/assets/images/My-project.jpg" alt="selfie" height="450px"/>
+</div>
+
+<br>
+<p style="text-align:left" class="effect-1">
 Hello, I'm the master student at NTHU physics who is studying the theoretical physics. My recent search is on the non-Hermitian physics which can described the open quantum system effectively. I'm interested on topological property on toplogicla system with non-Hermicity which is defferent from the conventional topological system. In order to dicuss that what's happened to physics observables with dissapation. I'm also interested on superconductor and graphene physics.
 </p>
 
 ## Education
+
 <table style="width:95%;">
 <tr>
 <td>&#8226; Ming-Doa High School (MDHS)</td>
@@ -27,8 +38,8 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
 </tr>
 </table>
 
+## Teaching Assistant Experience
 
-## Teaching Assistant Expereience
 <table style="width:99%;">
 <tr>
 <td>&#8226; General Physics (Undergruate course)</td>
@@ -41,8 +52,8 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
 </tr>
 </table>
 
+## Program Language
 
-## Program Langauge
 <ul class="skill-list">
 	<li>Fortran (Intermediate): For effecient numerical calculation.</li>
 	<li>Mathematica (Intermediate): For symbolic calculation.</li>
