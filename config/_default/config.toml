@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://your_domain.com/"
+baseURL = "https://davimci.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"
 
