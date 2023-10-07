@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Chia-Wei</title>
+    <link>https://davimci.github.io/notes/programming/</link>
+    <description>Recent content in Programming on Chia-Wei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Chia-Wei</copyright>
+    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davimci.github.io/notes/programming/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Chia-Wei</title>
-    <link>https://your_domain.com/notes/</link>
+    <link>https://davimci.github.io/notes/</link>
     <description>Recent content in Notes on Chia-Wei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Chia-Wei</copyright>
-    <lastBuildDate>Fri, 16 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://your_domain.com/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davimci.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
