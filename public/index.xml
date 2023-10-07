@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Blog on Chia-Wei</title>
+    <link>https://your_domain.com/</link>
+    <description>Recent content in The Blog on Chia-Wei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Chia-Wei</copyright>
+    <lastBuildDate>Fri, 16 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://your_domain.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>:computer: test</title>
+      <link>https://your_domain.com/notes/physics/check/</link>
+      <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://your_domain.com/notes/physics/check/</guid>
+      <description>Topological invariant of the Hall conductance # Abstract # For the two dimensional periodic potential with magnetic field, the quantized value of the Hall conductance \(\sigma_{xy}\) is related to the number of the zeros of the wavefunction in the magnetic Brillouin zone.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://your_domain.com/notes/physics/check/featured.png" />
+    </item>
+    
+    <item>
+      <title>:computer: test</title>
+      <link>https://your_domain.com/posts/test/</link>
+      <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://your_domain.com/posts/test/</guid>
+      <description>Topological invariant of the Hall conductance # Abstract # For the two dimensional periodic potential with magnetic field, the quantized value of the Hall conductance \(\sigma_{xy}\) is related to the number of the zeros of the wavefunction in the magnetic Brillouin zone.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://your_domain.com/posts/test/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
