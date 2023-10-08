@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://davimci.github.io/sitemap.xml
