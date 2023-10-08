@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Chia-Wei"
+title = "Chia-Wei's note"
 
 [params]
   displayName = "EN"
@@ -16,8 +16,8 @@ title = "Chia-Wei"
 [author]
   name = "Chia-Wei"
   image = "author2.JPG"
-  headline = "An unused graduate student"
-  bio = "A useless person"
+  headline = "An useless theoretical physicist "
+  bio = "A master student at National Tsing-Hua University"
   links = [
     { email = "mailto:wade870227@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },
@@ -52,12 +52,12 @@ title = "Chia-Wei"
 #     { snapchat = "https://snapchat.com/add/username" },
 #     { soundcloud = "https://soundcloud.com/username" },
 #     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
-#     { steam = "https://steamcommunity.com/profiles/userid" },
 #     { telegram = "https://t.me/username" },
 #     { tiktok = "https://tiktok.com/@username" },
 #     { tumblr = "https://username.tumblr.com" },
 #     { twitch = "https://twitch.tv/username" },
     { twitter = "https://twitter.com/ChiaWei27" },
+    { steam = "https://steamcommunity.com/profiles/76561198334897782" },
 #     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },

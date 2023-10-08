@@ -2,5 +2,6 @@
 title: "The Blog"
 ---
 
-{{< typeit tag=h4 lifeLike=true breaklines=true >}}WE DO THIS NOT BECAUSE IT IS EASY
-BUT BECAUSE WE THOUGHT IT WOULD BE EASY{{< /typeit >}}
+{{< typeit tag=h3 lifeLike=true speed=70 breaklines=true >}}The future belongs to those who
+believe in the beauty of their dreams.
+-Eleanor Roosevelt{{< /typeit >}}
