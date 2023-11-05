@@ -1,15 +1,12 @@
 ---
 title: ":computer: test"
 date: 2022-09-16
-star: false
+# star: false
 category: physics
 description: Hello world!!
 ---
 
 {{< katex >}}
-
-
-
 
 # Topological invariant of the Hall conductance
 
@@ -222,5 +219,3 @@ $$
 
 n must be an integer for each state vector which fit completely around the
 full revolution on the boundary.
-
-

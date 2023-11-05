@@ -1,7 +1,6 @@
 ---
 title: About me
 date: 2023-10-07
-draft: false
 ---
 
 <br>
