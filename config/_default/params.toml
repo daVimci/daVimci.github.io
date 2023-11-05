@@ -44,8 +44,8 @@ smartTOCHideUnfocusedChildren = true
   layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
-  showDate = true
-  showViews = false
+  # showDate = true
+  showViews = true
 
   showLikes = false
 
@@ -75,7 +75,7 @@ smartTOCHideUnfocusedChildren = true
 
   showWordCount = false
 
-  showComments = true
+  # showComments = true
   sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
 
 [list]
