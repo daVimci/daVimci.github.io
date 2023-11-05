@@ -1,7 +1,7 @@
 ---
 title: ":computer: test"
-date: 2022-09-16
-# star: false
+date: 2022-09-16T07:00:13+07:00
+star: false
 category: physics
 description: Hello world!!
 ---
