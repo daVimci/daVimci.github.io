@@ -1,5 +1,3 @@
-# -- Theme Options --
-# These options control how the theme functions and allow you to
 # customise the display of your website.
 #
 # Refer to the theme docs for more details about each of these parameters.
@@ -46,8 +44,7 @@ smartTOCHideUnfocusedChildren = true
   layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
-  showDate = false
-
+  showDate = true
   showViews = false
 
   showLikes = false
