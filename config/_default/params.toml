@@ -71,7 +71,7 @@ smartTOCHideUnfocusedChildren = true
   showTaxonomies = true
   showAuthorsBadges = true
   showWordCount = true
-  showComment = true
+  showComments = true
   sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
 
 [list]
