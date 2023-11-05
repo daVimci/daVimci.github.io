@@ -46,9 +46,12 @@ smartTOCHideUnfocusedChildren = true
   layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
-  # showDate = true
-  # showViews = true
-  # showLikes = true
+  showDate = false
+
+  showViews = false
+
+  showLikes = false
+
   showDateUpdated = false
   showAuthor = true
   showHero = true
@@ -64,13 +67,17 @@ smartTOCHideUnfocusedChildren = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  # showReadingTime = true
+
+  showReadingTime = false
+
   showTableOfContents = true
   showRelatedContent = true
   relatedContentLimit = 3
   showTaxonomies = true
   showAuthorsBadges = true
-  # showWordCount = true
+
+  showWordCount = false
+
   showComments = true
   sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
 
