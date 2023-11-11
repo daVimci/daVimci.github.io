@@ -45,12 +45,8 @@ smartTOCHideUnfocusedChildren = true
 
 [article]
   showDate = true
-
-  showViews = false
-
-  showLikes = false
-
-##################################
+  showViews = true
+  showLikes = true
   showDateUpdated = false
   showAuthor = true
   showHero = true
@@ -66,9 +62,7 @@ smartTOCHideUnfocusedChildren = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-########################
-  showReadingTime = false
-########################
+  showReadingTime = true
   showTableOfContents = true
   showRelatedContent = true
   relatedContentLimit = 3
