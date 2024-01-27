@@ -51,3 +51,7 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
 </ul>
 
 ## Projects
+
+## My CV
+
+![](./img/MyCV.jpg)
