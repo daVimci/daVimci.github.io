@@ -10,12 +10,12 @@
     <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://davimci.github.io/notes/physics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://davimci.github.io/notes/physics/bb84/bb84/</link>
+      <link>https://davimci.github.io/notes/physics/bb84/</link>
       <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://davimci.github.io/notes/physics/bb84/bb84/</guid>
+      <guid>https://davimci.github.io/notes/physics/bb84/</guid>
       <description>BB84 quantum cryptography protocol # Quantum cryptography protocol BB84 # BB84 is the quantum key distribution scheme which developed by Charles Bennett and Gilles Brassard in 1984.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://davimci.github.io/notes/physics/bb84/featured.jpg" />
     </item>
     
     <item>
