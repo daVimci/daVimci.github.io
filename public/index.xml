@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Chia-Wei</copyright>
-    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://davimci.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Apr 2024 07:00:13 +0700</lastBuildDate><atom:link href="https://davimci.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>:coin: BB84 Quantum Cryptography Protocol</title>
       <link>https://davimci.github.io/notes/physics/bb84/</link>
-      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Apr 2024 07:00:13 +0700</pubDate>
       
       <guid>https://davimci.github.io/notes/physics/bb84/</guid>
       <description>BB84 quantum cryptography protocol # Quantum cryptography protocol BB84 # BB84 is the quantum key distribution scheme which developed by Charles Bennett and Gilles Brassard in 1984.</description>

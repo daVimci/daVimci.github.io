@@ -1,10 +1,9 @@
 ---
-created: 2024-04-16
-modified: 2024-04-16
-aliases:
-  - note
-tags:
-  - Quantum_Computing
+title: ":coin: BB84 Quantum Cryptography Protocol"
+date: 2024-04-16T07:00:13+07:00
+# star: false
+category: physics
+description: quantum cryption
 ---
 # BB84 quantum cryptography protocol
 ## Quantum cryptography protocol BB84
