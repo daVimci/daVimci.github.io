@@ -7,6 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Chia-Wei</copyright>
-    <atom:link href="https://davimci.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Apr 2024 07:00:13 +0700</lastBuildDate><atom:link href="https://davimci.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>quantum encryption</title>
+      <link>https://davimci.github.io/tags/quantum-encryption/</link>
+      <pubDate>Tue, 16 Apr 2024 07:00:13 +0700</pubDate>
+      
+      <guid>https://davimci.github.io/tags/quantum-encryption/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>topological insulator</title>
+      <link>https://davimci.github.io/tags/topological-insulator/</link>
+      <pubDate>Fri, 16 Sep 2022 07:00:13 +0700</pubDate>
+      
+      <guid>https://davimci.github.io/tags/topological-insulator/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

@@ -84,9 +84,9 @@
 [[footer]]
   name = "Tags"
   pageRef = "tags"
-  weight = 10
+  weight = 20
 
 [[footer]]
   name = "Categories"
   pageRef = "categories"
-  weight = 20
+  weight = 10

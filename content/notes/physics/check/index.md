@@ -2,7 +2,10 @@
 title: ":computer: test"
 date: 2022-09-16T07:00:13+07:00
 # star: false
-category: physics
+categories:
+  - condensed matter
+tags:
+  - topological insulator
 description: Hello world!!
 ---
 
