@@ -137,7 +137,7 @@ smartTOCHideUnfocusedChildren = true
 [buymeacoffee]
   identifier = "davimci"
   globalWidget = true
-  globalWidgetMessage = "Support me by buying me a coffee!"
+  # globalWidgetMessage = "Support me by buying me a coffee!"
   globalWidgetColor = "#FFDD00"
   globalWidgetPosition = "Right"
 
