@@ -127,6 +127,29 @@
   <meta name="theme-color"/>
   
   
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyD0DF9YjprXymIAdCKTcxeDiGldXQ_FXJw",
+      authDomain: "AIzaSyD0DF9YjprXymIAdCKTcxeDiGldXQ_FXJw",
+      projectId: "davimciblog",
+      storageBucket: "davimciblog.appspot.com",
+      messagingSenderId: "1086138127572",
+      appId: "1:1086138127572:web:a10d8c5a5d9f91c3195741",
+      measurementId: "G-FECLWQGF0M"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
+  
+  
 </head>
 <body
   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">

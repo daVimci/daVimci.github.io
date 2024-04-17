@@ -115,6 +115,13 @@ smartTOCHideUnfocusedChildren = true
   cardViewScreenWidth = false
 
 [firebase]
+  apiKey = "AIzaSyD0DF9YjprXymIAdCKTcxeDiGldXQ_FXJw"
+  authDomain = "davimciblog.firebaseapp.com"
+  projectId = "davimciblog"
+  storageBucket = "davimciblog.appspot.com"
+  messagingSenderId = "1086138127572"
+  appId = "1:1086138127572:web:a10d8c5a5d9f91c3195741"
+  measurementId = "G-FECLWQGF0M"
   # apiKey = "XXXXXX"
   # authDomain = "XXXXXX"
   # projectId = "XXXXXX"
