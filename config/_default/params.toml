@@ -39,7 +39,7 @@ smartTOCHideUnfocusedChildren = true
   showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = "/notes/physics"
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
 
@@ -73,7 +73,7 @@ smartTOCHideUnfocusedChildren = true
 
   showComments = true
   sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
-
+  showZenMode = true
 [list]
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground

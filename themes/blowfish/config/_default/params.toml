@@ -12,10 +12,14 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = false
 
+replyByEmail = false
+
 # mainSections = ["section1", "section2"]
 # robots = ""
 
 disableImageOptimization = true
+disableTextInHeader = false
+# backgroundImageWidth = 1200
 
 # defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
@@ -24,8 +28,11 @@ disableImageOptimization = true
 # smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v8.next.forgejo.org"
+
 [header]
-  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
+  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -40,7 +47,7 @@ disableImageOptimization = true
   showRecent = false
   showRecentItems = 5
   showMoreLink = false
-  showMoreLinkDest = "/posts"
+  showMoreLinkDest = "/posts/"
   cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
@@ -49,8 +56,10 @@ disableImageOptimization = true
   showDate = true
   showViews = false
   showLikes = false
+  showDateOnlyInArticle = false
   showDateUpdated = false
   showAuthor = true
+  # showAuthorBottom = false
   showHero = false
   # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
@@ -71,7 +80,8 @@ disableImageOptimization = true
   showTaxonomies = false
   showAuthorsBadges = false
   showWordCount = true
-  # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
+  # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
+  showZenMode = false
 
 [list]
   showHero = false
@@ -84,6 +94,7 @@ disableImageOptimization = true
   showLikes = false
   showTableOfContents = false
   showCards = false
+  orderByWeight = false
   groupByYear = true
   cardView = false
   cardViewScreenWidth = false
@@ -126,6 +137,17 @@ disableImageOptimization = true
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
 
+[umamiAnalytics]
+  # websiteid = "ABC12345"
+  # domain = "llama.yoursite.com"
+  # dataDomains = "yoursite.com,yoursite2.com"
+  # scriptName = ""
+  # enableTrackEvent = true
+
+[selineAnalytics]
+  # token = "XXXXXX"
+  # enableTrackEvent = true
+
 [buymeacoffee]
   # identifier = ""
   # globalWidget = true
@@ -138,3 +160,8 @@ disableImageOptimization = true
   # bing = ""
   # pinterest = ""
   # yandex = ""
+  # fediverse = ""
+
+[rssnext]
+  # feedId = ""
+  # userId = ""

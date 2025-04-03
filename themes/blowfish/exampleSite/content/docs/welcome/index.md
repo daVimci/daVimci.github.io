@@ -1,6 +1,6 @@
 ---
 title: "Welcome to Blowfish"
-date: 2022-01-19
+weight: 1
 draft: false
 description: "Discover what's new in Blowfish version 2.0."
 tags: ["new", "docs"]
@@ -24,9 +24,9 @@ Tailwind CSS is at the heart of Blowfish and this release contains the very late
 
 A highly requested feature, Blowfish is now multilingual! If you publish your content in multiple languages, the site will be built with all the translations available.
 
-<div class="text-2xl text-center" style="font-size: 2.8rem">:gb: :de: :fr: :es: :cn: :brazil: :tr: :bangladesh:</div>
+<div class="text-2xl text-center" style="font-size: 2.8rem">🇬🇧 🇩🇪 🇫🇷 🇪🇸 🇨🇳 🇧🇷 🇹🇷 🇧🇩</div>
 
-Thanks to submissions from the community, Blowfish has already been translated into [eight languages](https://github.com/nunocoracao/blowfish/tree/main/i18n) with more to be added over time. By the way, [pull requests](https://github.com/nunocoracao/blowfish/pulls) for new languages are always welcome!
+Thanks to submissions from the community, Blowfish has already been translated into [thirty languages](https://github.com/nunocoracao/blowfish/tree/main/i18n) with more to be added over time. By the way, [pull requests](https://github.com/nunocoracao/blowfish/pulls) for new languages are always welcome!
 
 ## RTL language support
 
@@ -76,4 +76,4 @@ The new image resizing features also provide full control over `alt` and `title`
 
 ## A whole lot more
 
-There's countless other features to explore. From being able to display taxonomies on articles and list pages, to using the new `headline` author parameter to customise your homepage. There's also improved JSON-LD strucured data which further optimises SEO performance. 
+There's countless other features to explore. From being able to display taxonomies on articles and list pages, to using the new `headline` author parameter to customise your homepage. There's also improved JSON-LD structured data which further optimises SEO performance. 

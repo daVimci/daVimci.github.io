@@ -11,7 +11,7 @@ type: 'sample'
 
 Blowfish has built-in support for a number of [FontAwesome 6](https://fontawesome.com/icons) icons. These can be included in your website through either the [icon partial]({{< ref "docs/partials#icon" >}}) or [icon shortcode]({{< ref "docs/shortcodes#icon" >}}).
 
-Additionally, custom icons are also fully supported. Simply provide your own SVG icon assets by placing them in the `assets/icons/` directory in the root of your project. Any icons in the icons directory will then be available to use throughout the theme. In order achieve automatic color filling every SVG path needs fill="currentColor" XML attribute.
+Additionally, custom icons are also fully supported. Simply provide your own SVG icon assets by placing them in the `assets/icons/` directory in the root of your project. Any icons in the icons directory will then be available to use throughout the theme. In order to achieve automatic color filling, every SVG path needs the `fill="currentColor"` XML attribute.
 
 The full list of built-in icons and their corresponding names can referenced below.
 
@@ -22,6 +22,7 @@ The full list of built-in icons and their corresponding names can referenced bel
 | bars                 | {{< icon bars >}}                 |
 | bell                 | {{< icon bell >}}                 |
 | blogger              | {{< icon blogger >}}              |
+| bluesky              | {{< icon bluesky >}}              |
 | bomb                 | {{< icon bomb >}}                 |
 | bug                  | {{< icon bug >}}                  |
 | check                | {{< icon check >}}                |
@@ -37,6 +38,7 @@ The full list of built-in icons and their corresponding names can referenced bel
 | edit                 | {{< icon edit >}}                 |
 | email                | {{< icon email >}}                |
 | envelope             | {{< icon envelope >}}             |
+| expand               | {{< icon expand >}}               |
 | eye                  | {{< icon eye >}}                  |
 | facebook             | {{< icon facebook >}}             |
 | fire                 | {{< icon fire >}}                 |
@@ -56,9 +58,11 @@ The full list of built-in icons and their corresponding names can referenced bel
 | heart                | {{< icon heart >}}                |
 | image                | {{< icon image >}}                |
 | instagram            | {{< icon instagram >}}            |
+| itch-io              | {{< icon itch-io >}}              |
 | keybase              | {{< icon keybase >}}              |
 | kickstarter          | {{< icon kickstarter >}}          |
 | ko-fi                | {{< icon ko-fi >}}                |
+| language             | {{< icon language >}}             |
 | lastfm               | {{< icon lastfm >}}               |
 | lightbulb            | {{< icon lightbulb >}}            |
 | link                 | {{< icon link >}}                 |
@@ -91,6 +95,7 @@ The full list of built-in icons and their corresponding names can referenced bel
 | slack                | {{< icon slack >}}                |
 | snapchat             | {{< icon snapchat >}}             |
 | soundcloud           | {{< icon soundcloud >}}           |
+| spotify              | {{< icon spotify >}}              |
 | stack-overflow       | {{< icon stack-overflow >}}       |
 | star                 | {{< icon star >}}                 |
 | steam                | {{< icon steam >}}                |
@@ -99,6 +104,7 @@ The full list of built-in icons and their corresponding names can referenced bel
 | sun                  | {{< icon sun >}}                  |
 | tag                  | {{< icon tag >}}                  |
 | telegram             | {{< icon telegram >}}             |
+| threads              | {{< icon threads >}}              |
 | tiktok               | {{< icon tiktok >}}               |
 | triangle-exclamation | {{< icon triangle-exclamation >}} |
 | tumblr               | {{< icon tumblr >}}               |
@@ -107,5 +113,7 @@ The full list of built-in icons and their corresponding names can referenced bel
 | wand-magic-sparkles  | {{< icon wand-magic-sparkles >}}  |
 | whatsapp             | {{< icon whatsapp >}}             |
 | x-twitter            | {{< icon x-twitter >}}            |
+| xing                 | {{< icon xing >}}                 |
 | xmark                | {{< icon xmark >}}                |
 | youtube              | {{< icon youtube >}}              |
+| codeberg             | {{< icon codeberg >}}             |

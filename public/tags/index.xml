@@ -2,28 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Chia-Wei&#39;s note</title>
-    <link>https://davimci.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Chia-Wei&#39;s note</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Chia-Wei</copyright>
-    <lastBuildDate>Tue, 16 Apr 2024 07:00:13 +0700</lastBuildDate><atom:link href="https://davimci.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Chia-Wei</copyright>
+    <lastBuildDate>Sun, 21 Apr 2024 07:22:15 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
-      <title>quantum encryption</title>
-      <link>https://davimci.github.io/tags/quantum-encryption/</link>
-      <pubDate>Tue, 16 Apr 2024 07:00:13 +0700</pubDate>
+      <title>Diffraction</title>
+      <link>http://localhost:1313/tags/diffraction/</link>
+      <pubDate>Sun, 21 Apr 2024 07:22:15 +0700</pubDate>
       
-      <guid>https://davimci.github.io/tags/quantum-encryption/</guid>
+      <guid>http://localhost:1313/tags/diffraction/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>topological insulator</title>
-      <link>https://davimci.github.io/tags/topological-insulator/</link>
-      <pubDate>Fri, 16 Sep 2022 07:00:13 +0700</pubDate>
+      <title>Quantum Encryption</title>
+      <link>http://localhost:1313/tags/quantum-encryption/</link>
+      <pubDate>Tue, 16 Apr 2024 07:00:13 +0700</pubDate>
       
-      <guid>https://davimci.github.io/tags/topological-insulator/</guid>
+      <guid>http://localhost:1313/tags/quantum-encryption/</guid>
       <description></description>
       
     </item>

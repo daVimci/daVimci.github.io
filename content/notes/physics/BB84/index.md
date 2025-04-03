@@ -14,12 +14,10 @@ description: quantum encryption
 BB84 is the quantum key distribution scheme which developed by Charles Bennett and Gilles Brassard in 1984. The name of BB84 originates from the prefix-alphabet of the name of these two scientists, “B” to “Bennett” and “Barassard”, “84” from the year of the paper is proposed.
 
 ![Dr. Charles H. Bennett, who is known for quantum teleportation and quantum cryptography.
-Credit by: [https://en.wikipedia.org/wiki/Charles_H._Bennett_(physicist)](https://en.wikipedia.org/wiki/Charles_H._Bennett_(physicist)) ](./Untitled.png "Dr. Charles H. Bennett, who is known for quantum teleportation and quantum cryptography.
-Credit by: [https://en.wikipedia.org/wiki/Charles*H._Bennett*(physicist)](<https://en.wikipedia.org/wiki/Charles_H._Bennett_(physicist)>)")
+Credit by: [https://en.wikipedia.org/wiki/Charles_H._Bennett_(physicist)](https://en.wikipedia.org/wiki/Charles_H._Bennett_(physicist)) ](./Untitled.png "[Dr. Charles H. Bennett](https://en.wikipedia.org/wiki/Charles_H._Bennett_(physicist)), who is known for quantum teleportation and quantum cryptography and was awarded the breakthrough prize in fundamental science in 2023.")
 
 ![Gilles Grassard, who is known for quantum cryptography and quantum teleportation.
-Credit by: [https://en.wikipedia.org/wiki/Gilles_Brassard](https://en.wikipedia.org/wiki/Gilles_Brassard)](./Untitled1.png "Gilles Grassard, who is known for quantum cryptography and quantum teleportation.
-Credit by: [https://en.wikipedia.org/wiki/Gilles_Brassard](https://en.wikipedia.org/wiki/Gilles_Brassard)")
+Credit by: [https://en.wikipedia.org/wiki/Gilles_Brassard](https://en.wikipedia.org/wiki/Gilles_Brassard)](./Untitled1.png "[Gilles Grassard](https://en.wikipedia.org/wiki/Gilles_Brassard), who is known for quantum cryptography and quantum teleportation and also was awarded the breakthrough prize in fundamental science in 2023.")
 
 This protocol is designed for the one-time pad (OTP) encryption technique. Based on the no-clone theorem and superposition property of the quantum states, we can avoid any disturbance from stealing any information during the process of private key communication. That is the reason why that it relies on two condition (a) there should exist the authenticated classical channel to verify the properties from the private key communication, and (b) it requires that the information gain is only possible when disturbing basis is not orthogonal to information.
 
@@ -63,6 +61,12 @@ Finally, Alice can send ciphertext to Bob without any concern. Even though eaves
 
 ## Description
 
-![The image illustrates BB84 protocol. ](./Untitled2.png "Image illustrates the BB84 protocol. Ref:[https://web.archive.org/web/20200130165639/http://researcher.watson.ibm.com/researcher/files/us-bennetc/BB84highest.pdf](https://web.archive.org/web/20200130165639/http://researcher.watson.ibm.com/researcher/files/us-bennetc/BB84highest.pdf)")
+![The image illustrates BB84 protocol. ](./Untitled2.png "Image illustrates the BB84 protocol<sup>[1]</sup>.")
 
-![Quantum Coin Tossing protocol is followed as image.](./Untitled3.png "Quantum Coin Tossing protocol is followed as image. Ref:[https://web.archive.org/web/20200130165639/http://researcher.watson.ibm.com/researcher/files/us-bennetc/BB84highest.pdf](https://web.archive.org/web/20200130165639/http://researcher.watson.ibm.com/researcher/files/us-bennetc/BB84highest.pdf)")
+![Quantum Coin Tossing protocol is followed as image.](./Untitled3.png "Quantum Coin Tossing protocol is followed as image<sup>[1]</sup>.")
+
+🚧 To Be Continued...
+
+## Reference
+
+[1] The original paper of the BB84 and quantum coin tossing protocol. [https://web.archive.org/web/20200130165639/http://researcher.watson.ibm.com/researcher/files/us-bennetc/BB84highest.pdf](https://web.archive.org/web/20200130165639/http://researcher.watson.ibm.com/researcher/files/us-bennetc/BB84highest.pdf)
