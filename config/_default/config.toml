@@ -4,8 +4,9 @@
 
 theme = "blowfish"
 baseURL = "https://davimci.github.io/"
-languageCode = "en"
-defaultContentLanguage = "en"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 

@@ -14,17 +14,66 @@
 @font-face {
   font-family: MononokiNerdFont;
   src: url("/fonts/MononokiNerdFont/MononokiNerdFont-Bold.ttf");
-  font-weight: 400;
+  font-weight: 200;
 }
 
 @font-face {
   font-family: MononokiNerdFont;
   src: url("/fonts/MononokiNerdFont/MononokiNerdFont-BoldItalic.ttf");
-  font-weight: 400;
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: SarasaMonoTC;
+  src: url("/fonts/SarasaMonoTC/SarasaMonoTC-Regular.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: SarasaMonoTC;
+  src: url("/fonts/SarasaMonoTC/SarasaMonoTC-Italic.ttf");
+  font-weight: 300;
   font-style: italic;
 }
 
+@font-face {
+  font-family: SarasaMonoTC;
+  src: url("/fonts/SarasaMonoTC/SarasaMonoTC-Bold.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: SarasaMonoTC;
+  src: url("/fonts/SarasaMonoTC/SarasaMonoTC-BoldItalic.ttf");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMapleMono;
+  src: url("/fonts/JetBrainsMapleMono/JetBrainsMapleMono-Regular.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: JetBrainsMapleMono;
+  src: url("/fonts/JetBrainsMapleMono/JetBrainsMapleMono-Italic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: JetBrainsMapleMono;
+  src: url("/fonts/JetBrainsMapleMono/JetBrainsMapleMono-Bold.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: JetBrainsMapleMono;
+  src: url("/fonts/JetBrainsMapleMono/JetBrainsMapleMono-BoldItalic.ttf");
+  font-weight: 200;
+  font-style: italic;
+}
 html {
-  font-family: MononokiNerdFont;
-  font-size: 13pt;
+  font-family: JetBrainsMapleMono;
+  font-size: 12pt;
 }
