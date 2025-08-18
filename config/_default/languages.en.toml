@@ -1,0 +1,66 @@
+languageCode = "en-us"
+languageName = "English"
+contentDir = "content/en" 
+weight = 10
+title = "Chia-Wei's note"
+
+
+[params]
+  displayName = "EN"
+  isoCode = "en-us"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/114x114.png"
+  secondaryLogo = "img/72x72.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "Chia-Wei"
+  image = "author2.JPG"
+  headline = "An useless theoretical physicist "
+  bio = "A master student at National Tsing-Hua University"
+  links = [
+    { email = "mailto:wade870227@gmail.com" },
+#     { link = "https://link-to-some-website.com/" },
+#     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+#     { apple = "https://www.apple.com" },
+#     { blogger = "https://username.blogspot.com/" },
+#     { codepen = "https://codepen.io/username" },
+#     { dev = "https://dev.to/username" },
+#     { discord = "https://discord.gg/invitecode" },
+#     { dribbble = "https://dribbble.com/username" },
+#     { facebook = "https://facebook.com/username" },
+#     { flickr = "https://www.flickr.com/photos/username/" },
+#     { foursquare = "https://foursquare.com/username" },
+    # { google = "https://www.google.com/" },
+    { github = "https://github.com/daVimci" },
+#     { gitlab = "https://gitlab.com/username" },
+#     { hashnode = "https://username.hashnode.dev" },
+#     { instagram = "https://instagram.com/username" },
+#     { keybase = "https://keybase.io/username" },
+#     { kickstarter = "https://www.kickstarter.com/profile/username" },
+#     { lastfm = "https://lastfm.com/user/username" },
+#     { linkedin = "https://linkedin.com/in/username" },
+#     { mastodon = "https://mastodon.instance/@username" },
+#     { medium = "https://medium.com/username" },
+#     { microsoft = "https://www.microsoft.com/" },
+#     { orcid = "https://orcid.org/userid" },
+#     { patreon = "https://www.patreon.com/username" },
+#     { pinterest = "https://pinterest.com/username" },
+#     { reddit = "https://reddit.com/user/username" },
+#     { researchgate = "https://www.researchgate.net/profile/username" },
+#     { slack = "https://workspace.url/team/userid" },
+#     { snapchat = "https://snapchat.com/add/username" },
+#     { soundcloud = "https://soundcloud.com/username" },
+#     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+#     { telegram = "https://t.me/username" },
+#     { tiktok = "https://tiktok.com/@username" },
+#     { tumblr = "https://username.tumblr.com" },
+#     { twitch = "https://twitch.tv/username" },
+    {x-twitter = "https://twitter.com/ChiaWei27" },
+    { steam = "https://steamcommunity.com/profiles/76561198334897782" },
+#     { whatsapp = "https://wa.me/phone-number" },
+#     { youtube = "https://youtube.com/username" },
+#     { ko-fi = "https://ko-fi.com/username" },
+  ]

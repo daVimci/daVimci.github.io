@@ -1,5 +1,5 @@
 ---
-title: About me
+title: 關於我
 lang: "zh-tw"
 date: 2023-10-07
 ---

@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Chia-Wei&#39;s note</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://davimci.github.io/categories/</link>
     <description>Recent content in Categories on Chia-Wei&#39;s note</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 Chia-Wei</copyright>
-    <lastBuildDate>Sun, 21 Apr 2024 07:22:15 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Apr 2024 07:22:15 +0700</lastBuildDate><atom:link href="https://davimci.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Optics</title>
-      <link>http://localhost:1313/categories/optics/</link>
+      <link>https://davimci.github.io/categories/optics/</link>
       <pubDate>Sun, 21 Apr 2024 07:22:15 +0700</pubDate>
       
-      <guid>http://localhost:1313/categories/optics/</guid>
+      <guid>https://davimci.github.io/categories/optics/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Quantum Computing</title>
-      <link>http://localhost:1313/categories/quantum-computing/</link>
+      <link>https://davimci.github.io/categories/quantum-computing/</link>
       <pubDate>Tue, 16 Apr 2024 07:00:13 +0700</pubDate>
       
-      <guid>http://localhost:1313/categories/quantum-computing/</guid>
+      <guid>https://davimci.github.io/categories/quantum-computing/</guid>
       <description></description>
       
     </item>
