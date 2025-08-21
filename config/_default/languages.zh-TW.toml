@@ -1,8 +1,8 @@
 languageCode = "zh-TW"
 languageName = "中文"
-contentDir = "content/zh" 
+contentDir = "content/zh"
 weight = 20
-title = "嘉緯的想法"
+title = "嘉緯的胡言亂語"
 
 
 [params]
@@ -18,8 +18,8 @@ title = "嘉緯的想法"
 [params.author]
   name = "嘉緯"
   image = "author2.JPG"
-  headline = "一個業餘的理論物理愛好者"
-  bio = "國立清華大學碩士生"
+  headline = "業餘理論物理愛好者"
+  bio = "SPICE 模型工程師|國立清華大學碩士|國立彰化師範大學學士"
   links = [
     { email = "mailto:wade870227@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },

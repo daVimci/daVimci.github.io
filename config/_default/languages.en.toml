@@ -1,6 +1,6 @@
 languageCode = "en-us"
 languageName = "English"
-contentDir = "content/en" 
+contentDir = "content/en"
 weight = 10
 title = "Chia-Wei's note"
 
@@ -18,8 +18,8 @@ title = "Chia-Wei's note"
 [params.author]
   name = "Chia-Wei"
   image = "author2.JPG"
-  headline = "An useless theoretical physicist "
-  bio = "A master student at National Tsing-Hua University"
+  headline = "Physics enthusiast with a little bit expertise"
+  bio = "SPICE Engineer at PSMC Inc.| Master of Science in Physics at NTHU | B.S. in Physics at NCUE"
   links = [
     { email = "mailto:wade870227@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },

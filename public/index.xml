@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 Chia-Wei</copyright>
-    <lastBuildDate>Sun, 21 Apr 2024 07:22:15 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Aug 2025 07:00:13 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/featured.jpg" />
+    </item>
     
     <item>
       <title>🌠 Fraunhofer Diffraction</title>
@@ -27,16 +37,6 @@
       <guid>http://localhost:1313/notes/physics/bb84/</guid>
       <description>Quantum cryptography protocol BB84 # BB84 is the quantum key distribution scheme which developed by Charles Bennett and Gilles Brassard in 1984.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/notes/physics/bb84/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/featured.jpg" />
     </item>
     
   </channel>

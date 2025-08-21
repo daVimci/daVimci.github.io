@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="zh-TW" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+<html lang="en-us" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
-  <meta http-equiv="content-language" content="zh-TW" />
+  <meta http-equiv="content-language" content="en-us" />
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>關於我 &middot; 嘉緯的胡言亂語</title>
-  <meta name="title" content="關於我 &middot; 嘉緯的胡言亂語" />
+  <title>🔄 Introduction to Bosonization  &middot; Chia-Wei&#39;s note</title>
+  <meta name="title" content="🔄 Introduction to Bosonization  &middot; Chia-Wei&#39;s note" />
+  
+  <meta name="description" content="bosonization" />
+  <meta name="keywords" content="field theory, " />
   
   
-  
-  
-  
-  <link rel="canonical" href="http://localhost:1313/zh-tw/about/" />
+  <link rel="canonical" href="http://localhost:1313/notes/physics/bosonization/" />
   
   
   
@@ -69,53 +69,57 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/zh-tw/about/">
-  <meta property="og:site_name" content="嘉緯的胡言亂語">
-  <meta property="og:title" content="關於我">
-  <meta property="og:locale" content="zh_TW">
+  <meta property="og:url" content="http://localhost:1313/notes/physics/bosonization/">
+  <meta property="og:site_name" content="Chia-Wei&#39;s note">
+  <meta property="og:title" content="🔄 Introduction to Bosonization ">
+  <meta property="og:description" content="bosonization">
+  <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2025-08-21T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-08-21T00:00:00+00:00">
-    <meta property="og:image" content="http://localhost:1313/zh-tw/about/featured.jpg">
+    <meta property="article:section" content="notes">
+    <meta property="article:published_time" content="2025-08-21T07:00:13+07:00">
+    <meta property="article:modified_time" content="2025-08-21T07:00:13+07:00">
+    <meta property="article:tag" content="Field Theory">
+    <meta property="og:image" content="http://localhost:1313/notes/physics/bosonization/featured.jpg">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/zh-tw/about/featured.jpg">
-  <meta name="twitter:title" content="關於我">
+  <meta name="twitter:image" content="http://localhost:1313/notes/physics/bosonization/featured.jpg">
+  <meta name="twitter:title" content="🔄 Introduction to Bosonization ">
+  <meta name="twitter:description" content="bosonization">
 
   
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "The Blog",
-    "name": "關於我",
-    "headline": "關於我",
-    
-    
-    "inLanguage": "zh-TW",
-    "url" : "http:\/\/localhost:1313\/zh-tw\/about\/",
+    "articleSection": "Notes",
+    "name": "🔄 Introduction to Bosonization ",
+    "headline": "🔄 Introduction to Bosonization ",
+    "description": "bosonization",
+    "abstract": "Bosonization # For the 1-D electron system with interaction, the fermionic operator \\(\\psi(x)\\) can be expressed in terms of bosonic operators \\(\\phi(x)\\) which has been used in 1\u002b1 dimension.",
+    "inLanguage": "en-us",
+    "url" : "http:\/\/localhost:1313\/notes\/physics\/bosonization\/",
     "author" : {
       "@type": "Person",
-      "name": "嘉緯"
+      "name": "Chia-Wei"
     },
     "copyrightYear": "2025",
-    "dateCreated": "2025-08-21T00:00:00\u002b00:00",
-    "datePublished": "2025-08-21T00:00:00\u002b00:00",
+    "dateCreated": "2025-08-21T07:00:13\u002b07:00",
+    "datePublished": "2025-08-21T07:00:13\u002b07:00",
     
-    "dateModified": "2025-08-21T00:00:00\u002b00:00",
+    "dateModified": "2025-08-21T07:00:13\u002b07:00",
     
-    
+    "keywords": ["field theory"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "152"
+    "wordCount": "29"
   }]
   </script>
 
 
   
   
-  <meta name="author" content="嘉緯" />
+  <meta name="author" content="Chia-Wei" />
   
   
   
@@ -135,6 +139,139 @@
   
 
 <script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/lib/katex/katex.min.8fee1bb91734542a6701c61b7be516ff2eb2df248bf4e4591aacc8f4e9df40c7ca9e9c0b3f657b166f5f13e69a8fb50a139b3babcef20aeeea18f0fbcd4169fb.css" integrity="sha512-j&#43;4buRc0VCpnAcYbe&#43;UW/y6y3ySL9ORZGqzI9OnfQMfKnpwLP2V7Fm9fE&#43;aaj7UKE5s7q87yCu7qGPD7zUFp&#43;w==" />
+
+
+<script defer src="/lib/katex/katex.min.8c68eaeb75cfdcfac071717a969e1b9d9230ad52c6a2ac21ff846eaf6a258364cbb79e5e3552e32c280faeb4f4eda4d7c5bd1492e30a961c737e1e5305300281.js" integrity="sha512-jGjq63XP3PrAcXF6lp4bnZIwrVLGoqwh/4Rur2olg2TLt55eNVLjLCgPrrT07aTXxb0UkuMKlhxzfh5TBTACgQ=="></script>
+
+
+<script defer src="/lib/katex/auto-render.min.e9b2833d28623d18c071d78ef13e9c79d695122d296af3dbcee7bf1bf6518b0565bab59939267fbc8f5faf696193c20f5caef3e7501969cfb306f6738032730d.js" integrity="sha512-6bKDPShiPRjAcdeO8T6cedaVEi0pavPbzue/G/ZRiwVlurWZOSZ/vI9fr2lhk8IPXK7z51AZac&#43;zBvZzgDJzDQ=="
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -196,7 +333,7 @@
   <div id="the-top" class="absolute flex self-center">
     <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
       href="#main-content"><span
-        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>快轉到主要內容</a>
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
   </div>
   
   
@@ -210,12 +347,12 @@
     
     
     <div>
-        <a href="/zh-tw/" class="flex">
-            <span class="sr-only">嘉緯的胡言亂語</span>
+        <a href="/" class="flex">
+            <span class="sr-only">Chia-Wei&rsquo;s note</span>
 
             
             <img src="/img/114x114.png" width="57" height="57"
-                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="嘉緯的胡言亂語" />
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="Chia-Wei&#39;s note" />
             
 
         </a>
@@ -225,13 +362,57 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/zh-tw/" class="text-base font-medium text-gray-500 hover:text-gray-900">嘉緯的胡言亂語</a>
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Chia-Wei&rsquo;s note</a>
             
 
         </nav>
         <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
 
             
+            
+            
+  <a href="/about"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <span  class="mr-1" >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor" d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"/></svg>
+  </span>
+
+
+    </span>
+    
+    <p class="text-base font-medium" title="">
+        About
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/posts"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <span  class="mr-1" >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M446.6 222.7c-1.8-8-6.8-15.4-12.5-18.5-1.8-1-13-2.2-25-2.7-20.1-.9-22.3-1.3-28.7-5-10.1-5.9-12.8-12.3-12.9-29.5-.1-33-13.8-63.7-40.9-91.3-19.3-19.7-40.9-33-65.5-40.5-5.9-1.8-19.1-2.4-63.3-2.9-69.4-.8-84.8.6-108.4 10C45.9 59.5 14.7 96.1 3.3 142.9 1.2 151.7.7 165.8.2 246.8c-.6 101.5.1 116.4 6.4 136.5 15.6 49.6 59.9 86.3 104.4 94.3 14.8 2.7 197.3 3.3 216 .8 32.5-4.4 58-17.5 81.9-41.9 17.3-17.7 28.1-36.8 35.2-62.1 4.9-17.6 4.5-142.8 2.5-151.7zm-322.1-63.6c7.8-7.9 10-8.2 58.8-8.2 43.9 0 45.4.1 51.8 3.4 9.3 4.7 13.4 11.3 13.4 21.9 0 9.5-3.8 16.2-12.3 21.6-4.6 2.9-7.3 3.1-50.3 3.3-26.5.2-47.7-.4-50.8-1.2-16.6-4.7-22.8-28.5-10.6-40.8zm191.8 199.8l-14.9 2.4-77.5.9c-68.1.8-87.3-.4-90.9-2-7.1-3.1-13.8-11.7-14.9-19.4-1.1-7.3 2.6-17.3 8.2-22.4 7.1-6.4 10.2-6.6 97.3-6.7 89.6-.1 89.1-.1 97.6 7.8 12.1 11.3 9.5 31.2-4.9 39.4z"/></svg>
+
+  </span>
+
+
+    </span>
+    
+    <p class="text-base font-medium" title="">
+        Blog
+    </p>
+</a>
+
+
+
             
              
   <div>
@@ -249,7 +430,7 @@
     </span>
     
     <a  class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="">
-      想法
+      Notes
     </a>
     <span>
       
@@ -277,7 +458,7 @@
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
       <div class="flex flex-col space-y-3">
         
-        <a href="/zh-tw/notes/physics/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        <a href="/notes/physics"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
           
           <span  class="mr-1" >
             
@@ -291,11 +472,11 @@
           </span>
           
           <p class="text-sm font-sm" title="">
-            物理
+            Physics
           </p>
         </a>
         
-        <a href="/zh-tw/notes/programming/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        <a href="/notes/programming"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
           
           <span  class="mr-1" >
             
@@ -309,7 +490,7 @@
           </span>
           
           <p class="text-sm font-sm" title="">
-            程式
+            Programming
           </p>
         </a>
         
@@ -322,13 +503,13 @@
 
             
             
-  <a href="/zh-tw/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <span  class="mr-1" >
         
 
   <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M446.6 222.7c-1.8-8-6.8-15.4-12.5-18.5-1.8-1-13-2.2-25-2.7-20.1-.9-22.3-1.3-28.7-5-10.1-5.9-12.8-12.3-12.9-29.5-.1-33-13.8-63.7-40.9-91.3-19.3-19.7-40.9-33-65.5-40.5-5.9-1.8-19.1-2.4-63.3-2.9-69.4-.8-84.8.6-108.4 10C45.9 59.5 14.7 96.1 3.3 142.9 1.2 151.7.7 165.8.2 246.8c-.6 101.5.1 116.4 6.4 136.5 15.6 49.6 59.9 86.3 104.4 94.3 14.8 2.7 197.3 3.3 216 .8 32.5-4.4 58-17.5 81.9-41.9 17.3-17.7 28.1-36.8 35.2-62.1 4.9-17.6 4.5-142.8 2.5-151.7zm-322.1-63.6c7.8-7.9 10-8.2 58.8-8.2 43.9 0 45.4.1 51.8 3.4 9.3 4.7 13.4 11.3 13.4 21.9 0 9.5-3.8 16.2-12.3 21.6-4.6 2.9-7.3 3.1-50.3 3.3-26.5.2-47.7-.4-50.8-1.2-16.6-4.7-22.8-28.5-10.6-40.8zm191.8 199.8l-14.9 2.4-77.5.9c-68.1.8-87.3-.4-90.9-2-7.1-3.1-13.8-11.7-14.9-19.4-1.1-7.3 2.6-17.3 8.2-22.4 7.1-6.4 10.2-6.6 97.3-6.7 89.6-.1 89.1-.1 97.6 7.8 12.1 11.3 9.5 31.2-4.9 39.4z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
 
   </span>
 
@@ -336,7 +517,7 @@
     </span>
     
     <p class="text-base font-medium" title="">
-        部落格
+        Projects
     </p>
 </a>
 
@@ -344,29 +525,7 @@
 
             
             
-  <a href="/zh-tw/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <span  class="mr-1" >
-        
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-<path fill="currentColor" d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"/></svg>
-  </span>
-
-
-    </span>
-    
-    <p class="text-base font-medium" title="">
-        關於我
-    </p>
-</a>
-
-
-
-            
-            
-  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="https://github.com/daVimci"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <span >
         
@@ -390,41 +549,6 @@
             
 
             
-<div>
-  <div class="cursor-pointer flex items-center nested-menu">
-    <span class="ltr:mr-1 rtl:ml-1">
-      
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-    <path fill="currentColor" d="M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z"/></svg>
-  </span>
-
-
-    </span>
-    <div class="text-sm font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="關於我">🇹🇼</div>
-  </div>
-  <div class="absolute menuhide">
-    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
-      <div class="flex flex-col space-y-3">
-        
-        <a href="/about/" class="flex items-center">
-          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="About me">
-            EN
-          </p>
-        </a>
-        
-        <a href="/zh-tw/about/" class="flex items-center">
-          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="關於我">
-            中文
-          </p>
-        </a>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
 
 
             
@@ -477,41 +601,6 @@
             <span></span>
 
             
-<div>
-  <div class="cursor-pointer flex items-center nested-menu">
-    <span class="ltr:mr-1 rtl:ml-1">
-      
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-    <path fill="currentColor" d="M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z"/></svg>
-  </span>
-
-
-    </span>
-    <div class="text-sm font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="關於我">🇹🇼</div>
-  </div>
-  <div class="absolute menuhide">
-    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
-      <div class="flex flex-col space-y-3">
-        
-        <a href="/about/" class="flex items-center">
-          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="About me">
-            EN
-          </p>
-        </a>
-        
-        <a href="/zh-tw/about/" class="flex items-center">
-          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="關於我">
-            中文
-          </p>
-        </a>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
 
 
             
@@ -589,6 +678,58 @@
 
                     
 
+                    
+  <li class="mt-1">
+    <a href="/about"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div  class="mr-2" >
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor" d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"/></svg>
+  </span>
+
+
+        </div>
+        
+        <p class="text-bg font-bg" title="">
+            About
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/posts"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div  class="mr-2" >
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M446.6 222.7c-1.8-8-6.8-15.4-12.5-18.5-1.8-1-13-2.2-25-2.7-20.1-.9-22.3-1.3-28.7-5-10.1-5.9-12.8-12.3-12.9-29.5-.1-33-13.8-63.7-40.9-91.3-19.3-19.7-40.9-33-65.5-40.5-5.9-1.8-19.1-2.4-63.3-2.9-69.4-.8-84.8.6-108.4 10C45.9 59.5 14.7 96.1 3.3 142.9 1.2 151.7.7 165.8.2 246.8c-.6 101.5.1 116.4 6.4 136.5 15.6 49.6 59.9 86.3 104.4 94.3 14.8 2.7 197.3 3.3 216 .8 32.5-4.4 58-17.5 81.9-41.9 17.3-17.7 28.1-36.8 35.2-62.1 4.9-17.6 4.5-142.8 2.5-151.7zm-322.1-63.6c7.8-7.9 10-8.2 58.8-8.2 43.9 0 45.4.1 51.8 3.4 9.3 4.7 13.4 11.3 13.4 21.9 0 9.5-3.8 16.2-12.3 21.6-4.6 2.9-7.3 3.1-50.3 3.3-26.5.2-47.7-.4-50.8-1.2-16.6-4.7-22.8-28.5-10.6-40.8zm191.8 199.8l-14.9 2.4-77.5.9c-68.1.8-87.3-.4-90.9-2-7.1-3.1-13.8-11.7-14.9-19.4-1.1-7.3 2.6-17.3 8.2-22.4 7.1-6.4 10.2-6.6 97.3-6.7 89.6-.1 89.1-.1 97.6 7.8 12.1 11.3 9.5 31.2-4.9 39.4z"/></svg>
+
+  </span>
+
+
+        </div>
+        
+        <p class="text-bg font-bg" title="">
+            Blog
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
                      
   <li class="mt-1">
     <a href="" class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
@@ -605,7 +746,7 @@
         </span>
         
         <p class="text-bg font-bg" title="">
-            想法
+            Notes
         </p>
         <span>
             
@@ -632,7 +773,7 @@
 </li>
 
 <li class="mt-1">
-    <a href="/zh-tw/notes/physics/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/notes/physics"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <span  class="mr-1" >
             
@@ -646,13 +787,13 @@
         </span>
         
         <p class="text-sm font-small" title="">
-            物理
+            Physics
         </p>
     </a>
 </li>
 
 <li class="mt-1">
-    <a href="/zh-tw/notes/programming/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/notes/programming"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <span  class="mr-1" >
             
@@ -666,7 +807,7 @@
         </span>
         
         <p class="text-sm font-small" title="">
-            程式
+            Programming
         </p>
     </a>
 </li>
@@ -680,13 +821,13 @@
 
                     
   <li class="mt-1">
-    <a href="/zh-tw/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <div  class="mr-2" >
             
 
   <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M446.6 222.7c-1.8-8-6.8-15.4-12.5-18.5-1.8-1-13-2.2-25-2.7-20.1-.9-22.3-1.3-28.7-5-10.1-5.9-12.8-12.3-12.9-29.5-.1-33-13.8-63.7-40.9-91.3-19.3-19.7-40.9-33-65.5-40.5-5.9-1.8-19.1-2.4-63.3-2.9-69.4-.8-84.8.6-108.4 10C45.9 59.5 14.7 96.1 3.3 142.9 1.2 151.7.7 165.8.2 246.8c-.6 101.5.1 116.4 6.4 136.5 15.6 49.6 59.9 86.3 104.4 94.3 14.8 2.7 197.3 3.3 216 .8 32.5-4.4 58-17.5 81.9-41.9 17.3-17.7 28.1-36.8 35.2-62.1 4.9-17.6 4.5-142.8 2.5-151.7zm-322.1-63.6c7.8-7.9 10-8.2 58.8-8.2 43.9 0 45.4.1 51.8 3.4 9.3 4.7 13.4 11.3 13.4 21.9 0 9.5-3.8 16.2-12.3 21.6-4.6 2.9-7.3 3.1-50.3 3.3-26.5.2-47.7-.4-50.8-1.2-16.6-4.7-22.8-28.5-10.6-40.8zm191.8 199.8l-14.9 2.4-77.5.9c-68.1.8-87.3-.4-90.9-2-7.1-3.1-13.8-11.7-14.9-19.4-1.1-7.3 2.6-17.3 8.2-22.4 7.1-6.4 10.2-6.6 97.3-6.7 89.6-.1 89.1-.1 97.6 7.8 12.1 11.3 9.5 31.2-4.9 39.4z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
 
   </span>
 
@@ -694,7 +835,7 @@
         </div>
         
         <p class="text-bg font-bg" title="">
-            部落格
+            Projects
         </p>
     </a>
 </li>
@@ -706,33 +847,7 @@
 
                     
   <li class="mt-1">
-    <a href="/zh-tw/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <div  class="mr-2" >
-            
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-<path fill="currentColor" d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"/></svg>
-  </span>
-
-
-        </div>
-        
-        <p class="text-bg font-bg" title="">
-            關於我
-        </p>
-    </a>
-</li>
-
-
-
-
-                    
-
-                    
-  <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="https://github.com/daVimci"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <div >
             
@@ -810,7 +925,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/zh-tw/about/featured.jpg);">
+    style="background-image:url(/notes/physics/bosonization/featured.jpg);">
     
 
 
@@ -840,11 +955,33 @@
   
     
   
+    
+  
+    
+  
   <li class="hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/zh-tw/"
+      href="/"
       >The Blog</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/notes/"
+      >Notes</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/notes/physics/"
+      >Physics</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -852,8 +989,8 @@
   <li class="hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/zh-tw/about/"
-      >關於我</a
+      href="/notes/physics/bosonization/"
+      >🔄 Introduction to Bosonization </a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -862,7 +999,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      關於我
+      🔄 Introduction to Bosonization 
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -913,7 +1050,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-08-21T00:00:00&#43;00:00">21 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">1 分鐘</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2025-08-21T07:00:13&#43;07:00">21 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -923,13 +1060,10 @@
         
         
       
-        
-        
-      
       
     
   
-  <span id="views_about/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span id="views_notes/physics/Bosonization/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
   <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
@@ -948,13 +1082,10 @@
         
         
       
-        
-        
-      
       
     
   
-  <span id="likes_about/index.md"
+  <span id="likes_notes/physics/Bosonization/index.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="likes">loading</span>
   <span class="inline-block align-text-bottom">
@@ -1040,9 +1171,29 @@
   
   
   
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/condensed-matter/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Condensed Matter
+  </span>
+</span>
+  </span>
   
   
   
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/field-theory/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Field Theory
+  </span>
+</span>
+  </span>
   
   
   
@@ -1076,20 +1227,20 @@
     
       
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="嘉緯" src="/author2.JPG" />
+      alt="Chia-Wei" src="/author2.JPG" />
     
   
   <div class="place-self-center">
     
     <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
-      作者
+      Author
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      嘉緯
+      Chia-Wei
     </div>
     
     
-    <div class="text-sm text-neutral-700 dark:text-neutral-400">SPICE 模型工程師|國立清華大學碩士|國立彰化師範大學學士</div>
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">SPICE Engineer at PSMC Inc.| Master of Science in Physics at NTHU | B.S. in Physics at NCUE</div>
     
     <div class="text-2xl sm:text-lg">
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
@@ -1193,17 +1344,13 @@
   class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
   <summary
     class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    目錄
+    Table of Contents
   </summary>
   <div
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#job-experience">Job Experience</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#teaching-assistant-experience">Teaching Assistant Experience</a></li>
-    <li><a href="#program-language">Program Language</a></li>
-    <li><a href="#my-cv">My CV</a></li>
+    <li><a href="#bosonization">Bosonization</a></li>
   </ul>
 </nav>
   </div>
@@ -1211,17 +1358,13 @@
 <details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
   <summary
     class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    目錄
+    Table of Contents
   </summary>
   <div
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#job-experience">Job Experience</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#teaching-assistant-experience">Teaching Assistant Experience</a></li>
-    <li><a href="#program-language">Program Language</a></li>
-    <li><a href="#my-cv">My CV</a></li>
+    <li><a href="#bosonization">Bosonization</a></li>
   </ul>
 </nav>
   </div>
@@ -1305,113 +1448,21 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <br>
-<p style="text-align:left" class="effect-1">
-Hello, I'm the master student at NTHU physics who is studying the theoretical physics. My recent search is on the non-Hermitian physics which can described the open quantum system effectively. I'm interested on topological property on toplogicla system with non-Hermicity which is defferent from the conventional topological system. In order to dicuss that what's happened to physics observables with dissapation. I'm also interested on superconductor and graphene physics.
-</p>
+          
 
 
-<h2 class="relative group">Job Experience 
-    <div id="job-experience" class="anchor"></div>
+
+<h2 class="relative group">Bosonization 
+    <div id="bosonization" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#job-experience" aria-label="定位點">#</a>
+            style="text-decoration-line: none !important;" href="#bosonization" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<table style="width:99%;">
-<tr>
-<td>&#8226; Powerchip Semiconductor Manufacturing Corporation &#160;&#160;(PSMC)</td>
-<td> 2024/05-Current</td>
-</tr>
-</table>
-
-
-<h2 class="relative group">Education 
-    <div id="education" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#education" aria-label="定位點">#</a>
-    </span>        
-    
-</h2>
-<table style="width:95%;">
-<tr>
-<td>&#8226; Ming-Doa High School (MDHS)</td>
-<td>2013/09-2016/08</td>
-</tr>
-<tr>
-<td>&#x2022; National Changhua University of Education (NCUE)</td>
-<td>2016/09-2020/08</td>
-</tr>
-<tr>
-<td>&#x2022; National Tsing-Hua University (NTHU)</td>
-<td>2020/09-2023/07</td>
-</tr>
-</table>
-
-
-<h2 class="relative group">Teaching Assistant Experience 
-    <div id="teaching-assistant-experience" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#teaching-assistant-experience" aria-label="定位點">#</a>
-    </span>        
-    
-</h2>
-<table style="width:99%;">
-<tr>
-<td>&#8226; General Physics (Undergruate course)</td>
-<td>2019/09-2020/06</td>
-</tr>
-<tr>
-<td>&#x2022; Mathematical Physics (Undergruate course)</td>
-<td>2019/09-2020/06</td>
-</tr>
-</table>
-
-
-<h2 class="relative group">Program Language 
-    <div id="program-language" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#program-language" aria-label="定位點">#</a>
-    </span>        
-    
-</h2>
-<ul class="skill-list">
-	<li>Fortran (Intermediate): For effecient numerical calculation.</li>
-	<li>Mathematica (Intermediate): For symbolic calculation.</li>
-	<li>Latex (Intermediate): For writting paper ,thesis and slides.</li>
-        <li>Python (Intermediate): For numerical calculation with package.</li>
-        <li>C/C++ (Beginner): For fun.</li>
-</ul>
-
-
-<h2 class="relative group">My CV 
-    <div id="my-cv" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#my-cv" aria-label="定位點">#</a>
-    </span>        
-    
-</h2>
-<p>
-    <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="./img/WadeCV.jpg" alt="" />
-      
-    </figure>
-</p>
+<p>For the 1-D electron system with interaction, the fermionic operator \(\psi(x)\) can be expressed in terms of bosonic operators \(\phi(x)\) which has been used in 1+1 dimension.</p>
 
           
           
@@ -1429,9 +1480,9 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/zh-tw/about/&amp;title=%e9%97%9c%e6%96%bc%e6%88%91"
-      title="分享到 LinkedIn"
-      aria-label="分享到 LinkedIn"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/notes/physics/bosonization/&amp;title=%f0%9f%94%84%20Introduction%20to%20Bosonization%20"
+      title="Share on LinkedIn"
+      aria-label="Share on LinkedIn"
       >
       
 
@@ -1448,9 +1499,9 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/zh-tw/about/&amp;text=%e9%97%9c%e6%96%bc%e6%88%91"
-      title="推到 Twitter"
-      aria-label="推到 Twitter"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/notes/physics/bosonization/&amp;text=%f0%9f%94%84%20Introduction%20to%20Bosonization%20"
+      title="Tweet on Twitter"
+      aria-label="Tweet on Twitter"
       >
       
 
@@ -1466,9 +1517,9 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://reddit.com/submit/?url=http://localhost:1313/zh-tw/about/&amp;resubmit=true&amp;title=%e9%97%9c%e6%96%bc%e6%88%91"
-      title="發送到 Reddit"
-      aria-label="發送到 Reddit"
+      href="https://reddit.com/submit/?url=http://localhost:1313/notes/physics/bosonization/&amp;resubmit=true&amp;title=%f0%9f%94%84%20Introduction%20to%20Bosonization%20"
+      title="Submit to Reddit"
+      aria-label="Submit to Reddit"
       >
       
 
@@ -1485,9 +1536,9 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/zh-tw/about/&amp;description=%e9%97%9c%e6%96%bc%e6%88%91"
-      title="釘到 Pinterest"
-      aria-label="釘到 Pinterest"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/notes/physics/bosonization/&amp;description=%f0%9f%94%84%20Introduction%20to%20Bosonization%20"
+      title="Pin on Pinterest"
+      aria-label="Pin on Pinterest"
       >
       
 
@@ -1504,9 +1555,9 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/zh-tw/about/&amp;quote=%e9%97%9c%e6%96%bc%e6%88%91"
-      title="分享到 Facebook"
-      aria-label="分享到 Facebook"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/notes/physics/bosonization/&amp;quote=%f0%9f%94%84%20Introduction%20to%20Bosonization%20"
+      title="Share on Facebook"
+      aria-label="Share on Facebook"
       >
       
 
@@ -1523,9 +1574,9 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="mailto:?body=http://localhost:1313/zh-tw/about/&amp;subject=%e9%97%9c%e6%96%bc%e6%88%91"
-      title="以電子郵件發送"
-      aria-label="以電子郵件發送"
+      href="mailto:?body=http://localhost:1313/notes/physics/bosonization/&amp;subject=%f0%9f%94%84%20Introduction%20to%20Bosonization%20"
+      title="Send via email"
+      aria-label="Send via email"
       >
       
 
@@ -1542,7 +1593,7 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=http://localhost:1313/zh-tw/about/&amp;resubmit=true&amp;title=%e9%97%9c%e6%96%bc%e6%88%91"
+      href="https://api.whatsapp.com/send?text=http://localhost:1313/notes/physics/bosonization/&amp;resubmit=true&amp;title=%f0%9f%94%84%20Introduction%20to%20Bosonization%20"
       title="Share via WhatsApp"
       aria-label="Share via WhatsApp"
       >
@@ -1561,7 +1612,7 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=http://localhost:1313/zh-tw/about/&amp;resubmit=true&amp;title=%e9%97%9c%e6%96%bc%e6%88%91"
+      href="https://t.me/share/url?url=http://localhost:1313/notes/physics/bosonization/&amp;resubmit=true&amp;title=%f0%9f%94%84%20Introduction%20to%20Bosonization%20"
       title="Share via Telegram"
       aria-label="Share via Telegram"
       >
@@ -1582,6 +1633,181 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
         
 
 
+<h2 class="mt-8 text-2xl font-extrabold mb-10">Related</h2>
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  
+  
+
+  <a href="/about/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/about/featured.jpg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/about/">About me</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-08-21T00:00:00&#43;00:00">21 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_about/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
+  </span>
+
+</span>
+</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+        
+        
+      
+      
+    
+  
+  <span id="likes_about/index.md"
+    class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
+    title="likes">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+  </span>
+
+</span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+        <div class="py-1 prose dark:prose-invert">
+          
+        </div>
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+</section>
+
   
       </div>
      
@@ -1592,12 +1818,9 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
           
           
         
-          
-          
-        
       <script>
-        var oid = "views_about\/index.md"
-        var oid_likes = "likes_about\/index.md"
+        var oid = "views_notes\/physics\/Bosonization\/index.md"
+        var oid_likes = "likes_notes\/physics\/Bosonization\/index.md"
       </script>
       
       
@@ -1608,6 +1831,43 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
   <footer class="pt-8 max-w-prose print:hidden">
 
     
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/notes/physics/frauhover/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >🌠 Fraunhofer Diffraction</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-04-21T07:22:15&#43;07:00">21 April 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
   
 
 
@@ -1654,7 +1914,7 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
       <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
   <a href="#the-top"
     class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-    aria-label="捲動到頁頂" title="捲動到頁頂">
+    aria-label="Scroll to top" title="Scroll to top">
     &uarr;
   </a>
 </div>
@@ -1666,7 +1926,7 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
       <ul class="flex flex-col list-none sm:flex-row">
         
         <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
-          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/zh-tw/categories/"
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/categories/"
             title="">
             
             Categories
@@ -1674,7 +1934,7 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
         </li>
         
         <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
-          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/zh-tw/tags/"
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/tags/"
             title="">
             
             Tags
@@ -1692,7 +1952,7 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
       &copy;
       2025
-      嘉緯
+      Chia-Wei
     </p>
     
 
@@ -1718,7 +1978,7 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:1313/zh-tw/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div
@@ -1741,14 +2001,14 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
           type="search"
           id="search-query"
           class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
-          placeholder="搜尋"
+          placeholder="Search"
           tabindex="0"
         />
       </form>
       <button
         id="close-search-button"
         class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-        title="關閉 (Esc)"
+        title="Close (Esc)"
       >
         
 
