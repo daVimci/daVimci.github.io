@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Field Theory on Chia-Wei&#39;s note</title>
+    <link>http://localhost:1313/tags/field-theory/</link>
+    <description>Recent content in Field Theory on Chia-Wei&#39;s note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 Chia-Wei</copyright>
+    <lastBuildDate>Thu, 21 Aug 2025 07:00:13 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/field-theory/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>🔄 Introduction to Bosonization </title>
+      <link>http://localhost:1313/notes/physics/bosonization/</link>
+      <pubDate>Thu, 21 Aug 2025 07:00:13 +0700</pubDate>
+      
+      <guid>http://localhost:1313/notes/physics/bosonization/</guid>
+      <description>Bosonization # For the 1-D electron system with interaction, the fermionic operator \(\psi(x)\) can be expressed in terms of bosonic operators \(\phi(x)\) which has been used in 1+1 dimension.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/notes/physics/bosonization/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
