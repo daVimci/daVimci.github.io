@@ -2,7 +2,7 @@ languageCode = "zh-TW"
 languageName = "中文"
 contentDir = "content/zh"
 weight = 20
-title = "嘉緯的胡言亂語"
+title = "想法(垃圾)掩埋場"
 
 
 [params]
@@ -16,7 +16,7 @@ title = "嘉緯的胡言亂語"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
-  name = "嘉緯"
+  name = "嘉緯(Wade)"
   image = "author2.JPG"
   headline = "業餘理論物理愛好者"
   bio = "SPICE 模型工程師|國立清華大學碩士|國立彰化師範大學學士"
