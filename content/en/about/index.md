@@ -6,10 +6,11 @@ date: 2025-08-21
 
 <br>
 <p style="text-align:left" class="effect-1">
-Hello, I'm the master student at NTHU physics who is studying the theoretical physics. My recent search is on the non-Hermitian physics which can described the open quantum system effectively. I'm interested on topological property on toplogicla system with non-Hermicity which is defferent from the conventional topological system. In order to dicuss that what's happened to physics observables with dissapation. I'm also interested on superconductor and graphene physics.
+Hello, my name is Wade, and I'm a SPICE modeling engineer at Powerchip Semiconductor Manufacturing Corporation (PSMC). I hold a master’s degree in physics from National Tsing Hua University (NTHU). In my role, I am responsible for developing and maintaining SPICE models for semiconductor devices, ensuring their accuracy and reliability in circuit simulations. The devices I work with include MOSFETs, BJTs, diodes, and other semiconductor components. My expertise lies in the intricate details of semiconductor physics, which allows me to create precise model card that reflect the real-world behavior of these devices.
 </p>
 
-## Job Experience 
+## Job Experience
+
 <table style="width:99%;">
 <tr>
 <td>&#8226; Powerchip Semiconductor Manufacturing Corporation &#160;&#160;(PSMC)</td>
@@ -57,7 +58,6 @@ Hello, I'm the master student at NTHU physics who is studying the theoretical ph
         <li>Python (Intermediate): For numerical calculation with package.</li>
         <li>C/C++ (Beginner): For fun.</li>
 </ul>
-
 
 ## My CV
 
