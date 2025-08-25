@@ -2,7 +2,7 @@ languageCode = "zh-TW"
 languageName = "中文"
 contentDir = "content/zh"
 weight = 20
-title = "想法(垃圾)掩埋場"
+title = "垃圾掩埋場"
 
 
 [params]
