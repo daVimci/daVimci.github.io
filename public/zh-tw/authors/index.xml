@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on 想法(垃圾)掩埋場</title>
-    <link>http://localhost:1313/zh-tw/authors/</link>
-    <description>Recent content in Authors on 想法(垃圾)掩埋場</description>
+    <title>Authors on 垃圾掩埋場</title>
+    <link>https://davimci.github.io/zh-tw/authors/</link>
+    <description>Recent content in Authors on 垃圾掩埋場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <copyright>© 2025 嘉緯(Wade)</copyright>
-    <atom:link href="http://localhost:1313/zh-tw/authors/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 嘉緯(Wade)</copyright>
+    <atom:link href="https://davimci.github.io/zh-tw/authors/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

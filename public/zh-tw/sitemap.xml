@@ -3,98 +3,98 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/zh-tw/</loc>
+    <loc>https://davimci.github.io/zh-tw/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en-us"
-      href="http://localhost:1313/"
+      href="https://davimci.github.io/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-TW"
-      href="http://localhost:1313/zh-tw/"
+      href="https://davimci.github.io/zh-tw/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-tw/about/</loc>
+    <loc>https://davimci.github.io/zh-tw/about/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en-us"
-      href="http://localhost:1313/about/"
+      href="https://davimci.github.io/about/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-TW"
-      href="http://localhost:1313/zh-tw/about/"
+      href="https://davimci.github.io/zh-tw/about/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-tw/notes/</loc>
+    <loc>https://davimci.github.io/zh-tw/notes/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en-us"
-      href="http://localhost:1313/notes/"
+      href="https://davimci.github.io/notes/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-TW"
-      href="http://localhost:1313/zh-tw/notes/"
+      href="https://davimci.github.io/zh-tw/notes/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-tw/notes/programming/</loc>
+    <loc>https://davimci.github.io/zh-tw/notes/programming/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en-us"
-      href="http://localhost:1313/notes/programming/"
+      href="https://davimci.github.io/notes/programming/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-TW"
-      href="http://localhost:1313/zh-tw/notes/programming/"
+      href="https://davimci.github.io/zh-tw/notes/programming/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-tw/posts/</loc>
+    <loc>https://davimci.github.io/zh-tw/posts/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en-us"
-      href="http://localhost:1313/posts/"
+      href="https://davimci.github.io/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-TW"
-      href="http://localhost:1313/zh-tw/posts/"
+      href="https://davimci.github.io/zh-tw/posts/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-tw/notes/physics/</loc>
+    <loc>https://davimci.github.io/zh-tw/notes/physics/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en-us"
-      href="http://localhost:1313/notes/physics/"
+      href="https://davimci.github.io/notes/physics/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-TW"
-      href="http://localhost:1313/zh-tw/notes/physics/"
+      href="https://davimci.github.io/zh-tw/notes/physics/"
     />
   </url>
 </urlset>

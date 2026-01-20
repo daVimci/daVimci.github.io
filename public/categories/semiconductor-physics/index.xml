@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semiconductor Physics on Chia-Wei&#39;s note</title>
+    <link>http://localhost:1313/categories/semiconductor-physics/</link>
+    <description>Recent content in Semiconductor Physics on Chia-Wei&#39;s note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2026 Chia-Wei(Wade)</copyright>
+    <atom:link href="http://localhost:1313/categories/semiconductor-physics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>⚡ Breakdown Voltage Calculation </title>
+      <link>http://localhost:1313/notes/physics/breakdown-voltage-calculation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/physics/breakdown-voltage-calculation/</guid>
+      <description>Impact ionization # Consider a diode junction with applying the reverse bias, the built in electric field is constructed by the depletion region.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/notes/physics/breakdown-voltage-calculation/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
