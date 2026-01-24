@@ -16,7 +16,7 @@ series_order: 15
 3. 选择分析位置 
 4. Blowfish 是通过 `params.toml` 配置文件中的 firebase 相关参数，来和 firebase 集成的，更多的细节内容可以参考  <a target="_blank" href="{{< ref "configuration/#theme-parameters" >}}">这个页面</a>。你可以在下面找到集成 firebase 的文件示例，请注意 FirebaseConfig 对象内的参数。
 
-```
+```js
 // 从你需要的 SDK 中导入所需的函数
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -40,13 +40,38 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 ```
 
-5. 设置 Firestore - 选择 Build 并打开 Firestore. 创建一个数据库，并在生产环境中启动。选择服务器位置然后等待其部署完成。启动之后你需要配置规则。只需要复制并粘贴下面的内容，然后点击发布即可。
-```
+5. 设置 Firestore - 选择 Build 并打开 Firestore. 创建一个数据库，并在生产环境中启动。选择服务器位置然后等待其部署完成。启动之后你需要配置规则。只需要复制并粘贴下面的内容，然后点击发布即可。这些规则确保阅读量只能增加1，点赞量只能增加或减少1（且不会低于0）。
+```txt
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
+    // Views - read anyone, only increment by 1
+    match /views/{document} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null
+                    && request.resource.data.keys().hasOnly(['views'])
+                    && request.resource.data.views == 1;
+      allow update: if request.auth != null
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['views'])
+                    && request.resource.data.views == resource.data.views + 1;
+    }
+
+    // Likes - read anyone, only +1 or -1
+    match /likes/{document} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null
+                    && request.resource.data.keys().hasOnly(['likes'])
+                    && request.resource.data.likes == 1;
+      allow update: if request.auth != null
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['likes'])
+                    && (request.resource.data.likes == resource.data.likes + 1
+                        || request.resource.data.likes == resource.data.likes - 1)
+                    && request.resource.data.likes >= 0;
+    }
+
+    // Deny everything else
     match /{document=**} {
-      allow read, write: if request.auth != null;
+      allow read, write: if false;
     }
   }
 }

@@ -3,117 +3,123 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://davimci.github.io/notes/</loc>
-    <lastmod>2026-01-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/notes/physics/ionization_rate_and_integral/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/notes/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-TW"
-      href="https://davimci.github.io/zh-tw/notes/"
+      href="http://localhost:1313/zh-tw/notes/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en-us"
-      href="https://davimci.github.io/notes/"
+      href="http://localhost:1313/notes/"
     />
   </url>
   <url>
-    <loc>https://davimci.github.io/notes/physics/</loc>
-    <lastmod>2026-01-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/notes/physics/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-TW"
-      href="https://davimci.github.io/zh-tw/notes/physics/"
+      href="http://localhost:1313/zh-tw/notes/physics/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en-us"
-      href="https://davimci.github.io/notes/physics/"
+      href="http://localhost:1313/notes/physics/"
     />
   </url>
   <url>
-    <loc>https://davimci.github.io/</loc>
-    <lastmod>2026-01-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-TW"
-      href="https://davimci.github.io/zh-tw/"
+      href="http://localhost:1313/zh-tw/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en-us"
-      href="https://davimci.github.io/"
+      href="http://localhost:1313/"
     />
   </url>
   <url>
-    <loc>https://davimci.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-TW"
-      href="https://davimci.github.io/zh-tw/about/"
+      href="http://localhost:1313/zh-tw/about/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en-us"
-      href="https://davimci.github.io/about/"
+      href="http://localhost:1313/about/"
     />
   </url>
   <url>
-    <loc>https://davimci.github.io/notes/physics/frauhover/</loc>
+    <loc>http://localhost:1313/notes/physics/frauhover/</loc>
     <lastmod>2024-04-21T07:22:15+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://davimci.github.io/notes/physics/bb84/</loc>
+    <loc>http://localhost:1313/notes/physics/bb84/</loc>
     <lastmod>2024-04-16T07:00:13+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://davimci.github.io/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2023-10-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://davimci.github.io/notes/programming/</loc>
+    <loc>http://localhost:1313/notes/programming/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-TW"
-      href="https://davimci.github.io/zh-tw/notes/programming/"
+      href="http://localhost:1313/zh-tw/notes/programming/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en-us"
-      href="https://davimci.github.io/notes/programming/"
+      href="http://localhost:1313/notes/programming/"
     />
   </url>
   <url>
-    <loc>https://davimci.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-TW"
-      href="https://davimci.github.io/zh-tw/posts/"
+      href="http://localhost:1313/zh-tw/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en-us"
-      href="https://davimci.github.io/posts/"
+      href="http://localhost:1313/posts/"
     />
   </url>
 </urlset>

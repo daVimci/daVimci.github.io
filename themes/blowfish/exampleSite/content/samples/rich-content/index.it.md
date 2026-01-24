@@ -7,7 +7,7 @@ tags: ["shortcodes", "privacy", "sample", "gist", "twitter", "youtube", "vimeo"]
 type: 'sample'
 ---
 
-Hugo ships with several [built-in shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes) for rich content, along with a [privacy config](https://gohugo.io/about/hugo-and-gdpr/) and a set of _simple shortcodes_ that enable static and no-JS versions of various social media embeds.
+Hugo ships with several [built-in shortcodes](https://gohugo.io/content-management/shortcodes/#embedded) for rich content, along with a [privacy config](https://gohugo.io/about/hugo-and-gdpr/) and a set of _simple shortcodes_ that enable static and no-JS versions of various social media embeds.
 
 ## YouTube
 
@@ -17,9 +17,9 @@ Below is an example using the built-in `youtube` shortcode.
 
 ## Twitter
 
-This example uses the `twitter_simple` shortcode to output a Tweet. It requires two named parameters `user` and `id`.
+This example uses the `x` shortcode to output a Tweet. It requires two named parameters `user` and `id`.
 
-{{< twitter_simple user="DesignReviewed" id="1085870671291310081" >}}
+{{< x user="DesignReviewed" id="1085870671291310081" >}}
 
 Alternatively, the `tweet` shortcode can be used to embed a fully marked up Twitter card.
 

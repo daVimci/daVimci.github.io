@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Blog on 垃圾掩埋場</title>
-    <link>https://davimci.github.io/zh-tw/</link>
+    <link>http://localhost:1313/zh-tw/</link>
     <description>Recent content in The Blog on 垃圾掩埋場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <copyright>© 2026 嘉緯(Wade)</copyright>
-    <lastBuildDate>Thu, 21 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://davimci.github.io/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh-tw/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>關於我</title>
-      <link>https://davimci.github.io/zh-tw/about/</link>
+      <link>http://localhost:1313/zh-tw/about/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://davimci.github.io/zh-tw/about/</guid>
+      <guid>http://localhost:1313/zh-tw/about/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://davimci.github.io/zh-tw/about/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/zh-tw/about/featured.jpg" />
     </item>
     
   </channel>

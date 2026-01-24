@@ -6,7 +6,7 @@
 colorScheme = "fire"
 defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = true
-
+katex = true
 enableSearch = true
 enableCodeCopy = true
 
@@ -68,7 +68,7 @@ smartTOCHideUnfocusedChildren = true
   relatedContentLimit = 3
   showTaxonomies = true
   showAuthorsBadges = true
-
+  
   showWordCount = false
 
   showComments = true

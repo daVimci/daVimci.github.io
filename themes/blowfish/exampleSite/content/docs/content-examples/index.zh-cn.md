@@ -55,7 +55,6 @@ _这个例子设置了一个自定义标题，并在页面正文中添加了一�
 列表页将所有页面聚合到一个目录下，并为访问者提供了一种浏览页面的方式。博客或者作品集是一个典型案例，因为这两种类型的网站会将帖子或项目整合到一个列表页中。
 
 创建一个列表页就如同创建子目录一样简单。例如，要创建一个 "Projects" 列表页，你可以创建`content/projects/`。然后为你的项目创建一个 Markdown 文件。
-Creating a list page is as simple as making a sub-directory in the content folder. For example, to create a "Projects" section, you would create `content/projects/`. Then create a Markdown file for each of your projects.
 
 列表页面默认会自动生成，如果你想在列表添加一些页自定义内容，还需要在此目录创建一个 `_index.md` 文件。
 
@@ -128,7 +127,7 @@ animals: ["lion", "cat"]
 
 这个列表页会列举出所有包含在这个分类中的术语。在上面的例子中，`/animals/` 页面会包含 "lion" 和 "cat" 的链接，以此将访问者导向至具体的术语页。
 
-术语页将会列举出包含这个术语的所有页面。这些术语页面本质上和[列表页面](#list-pages)相同，并且以类似的方式运作。
+术语页将会列举出包含这个术语的所有页面。这些术语页面本质上和[列表页面](#列表页)相同，并且以类似的方式运作。
 
 如果你想在分类页面中添加自定义的内容，只需要对应文件夹的目录中创建 `_index.md` 文件即可。
 
@@ -198,7 +197,7 @@ date: 2022-01-25
 externalUrl: "https://medium.com/"
 summary: "我在Medium上写了一篇文章。"
 showReadingTime: false
-_build:
+build:
   render: "false"
   list: "local"
 ---
@@ -206,7 +205,7 @@ _build:
 
 除了像 `title` 和 `summary` 这种普通的扉页参数外，需要设置 `externalUrl` 参数来告诉 Blowfish 这不是一篇普通的文章。访问者在访问后，会被重定向到这里提供的 URL。
 
-此外，我们使用了 `_build` 参数来避免 Hugo 生成一个普通页面。因为我们是一个连接到外部的 URL，生成页面是没有意义的。
+此外，我们使用了 `build` 参数来避免 Hugo 生成一个普通页面。因为我们是一个连接到外部的 URL，生成页面是没有意义的。
 
 Hugo 中可以通过命令来快速生成一个外部链接的文件，在创建新的外部链接是，只需要指定 `-k external` 即可。这让生成外部链接文章变得更简单。
 

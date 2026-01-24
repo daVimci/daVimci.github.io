@@ -15,8 +15,8 @@ Blowfish 内置了许多 [FontAwesome 6](https://fontawesome.com/icons) 中的�
 
 下面是所有的内置图标及其名称。
 
-| 图标名称                 | 预览                                |
-|----------------------|-----------------------------------|
+| 图标名称             | 预览                              |
+| -------------------- | --------------------------------- |
 | amazon               | {{< icon amazon >}}               |
 | apple                | {{< icon apple >}}                |
 | bars                 | {{< icon bars >}}                 |
@@ -27,7 +27,10 @@ Blowfish 内置了许多 [FontAwesome 6](https://fontawesome.com/icons) 中的�
 | bug                  | {{< icon bug >}}                  |
 | check                | {{< icon check >}}                |
 | circle-info          | {{< icon circle-info >}}          |
+| cloud                | {{< icon cloud >}}                |
+| cloud-moon           | {{< icon cloud-moon >}}           |
 | code                 | {{< icon code>}}                  |
+| codeberg             | {{< icon codeberg >}}             |
 | codepen              | {{< icon codepen >}}              |
 | comment              | {{< icon comment >}}              |
 | dev                  | {{< icon dev >}}                  |
@@ -41,6 +44,7 @@ Blowfish 内置了许多 [FontAwesome 6](https://fontawesome.com/icons) 中的�
 | expand               | {{< icon expand >}}               |
 | eye                  | {{< icon eye >}}                  |
 | facebook             | {{< icon facebook >}}             |
+| fediverse            | {{< icon fediverse >}}            |
 | fire                 | {{< icon fire >}}                 |
 | flickr               | {{< icon flickr >}}               |
 | fork                 | {{< icon fork >}}                 |
@@ -51,6 +55,7 @@ Blowfish 内置了许多 [FontAwesome 6](https://fontawesome.com/icons) 中的�
 | globe                | {{< icon globe >}}                |
 | goodreads            | {{< icon goodreads >}}            |
 | google               | {{< icon google >}}               |
+| google-scholar       | {{< icon google-scholar >}}       |
 | graduation-cap       | {{< icon graduation-cap >}}       |
 | hackernews           | {{< icon hackernews >}}           |
 | hashnode             | {{< icon hashnode >}}             |
@@ -58,18 +63,22 @@ Blowfish 内置了许多 [FontAwesome 6](https://fontawesome.com/icons) 中的�
 | heart                | {{< icon heart >}}                |
 | image                | {{< icon image >}}                |
 | instagram            | {{< icon instagram >}}            |
+| itch-io              | {{< icon itch-io >}}              |
 | keybase              | {{< icon keybase >}}              |
+| keyoxide             | {{< icon keyoxide >}}             |
 | kickstarter          | {{< icon kickstarter >}}          |
 | ko-fi                | {{< icon ko-fi >}}                |
 | language             | {{< icon language >}}             |
 | lastfm               | {{< icon lastfm >}}               |
 | lightbulb            | {{< icon lightbulb >}}            |
+| line                 | {{< icon line >}}                 |
 | link                 | {{< icon link >}}                 |
 | linkedin             | {{< icon linkedin >}}             |
 | list                 | {{< icon list >}}                 |
 | location-dot         | {{< icon location-dot >}}         |
 | lock                 | {{< icon lock >}}                 |
 | mastodon             | {{< icon mastodon >}}             |
+| matrix               | {{< icon matrix >}}               |
 | medium               | {{< icon medium >}}               |
 | microsoft            | {{< icon microsoft >}}            |
 | moon                 | {{< icon moon >}}                 |
@@ -78,10 +87,12 @@ Blowfish 内置了许多 [FontAwesome 6](https://fontawesome.com/icons) 中的�
 | orcid                | {{< icon orcid >}}                |
 | patreon              | {{< icon patreon >}}              |
 | paypal               | {{< icon paypal >}}               |
+| peertube             | {{< icon peertube >}}             |
 | pencil               | {{< icon pencil >}}               |
 | pgpkey               | {{< icon pgpkey >}}               |
 | phone                | {{< icon phone >}}                |
 | pinterest            | {{< icon pinterest >}}            |
+| pixelfed             | {{< icon pixelfed >}}             |
 | poo                  | {{< icon poo >}}                  |
 | reddit               | {{< icon reddit >}}               |
 | researchgate         | {{< icon researchgate >}}         |
@@ -90,10 +101,12 @@ Blowfish 内置了许多 [FontAwesome 6](https://fontawesome.com/icons) 中的�
 | scale-balanced       | {{< icon scale-balanced >}}       |
 | search               | {{< icon search >}}               |
 | shield               | {{< icon shield >}}               |
+| signal               | {{< icon signal >}}               |
 | skull-crossbones     | {{< icon skull-crossbones >}}     |
 | slack                | {{< icon slack >}}                |
 | snapchat             | {{< icon snapchat >}}             |
 | soundcloud           | {{< icon soundcloud >}}           |
+| spotify              | {{< icon spotify >}}              |
 | stack-overflow       | {{< icon stack-overflow >}}       |
 | star                 | {{< icon star >}}                 |
 | steam                | {{< icon steam >}}                |
@@ -110,6 +123,7 @@ Blowfish 内置了许多 [FontAwesome 6](https://fontawesome.com/icons) 中的�
 | twitter              | {{< icon twitter >}}              |
 | wand-magic-sparkles  | {{< icon wand-magic-sparkles >}}  |
 | whatsapp             | {{< icon whatsapp >}}             |
+| worktree             | {{< icon worktree >}}             |
 | x-twitter            | {{< icon x-twitter >}}            |
 | xing                 | {{< icon xing >}}                 |
 | xmark                | {{< icon xmark >}}                |

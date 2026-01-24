@@ -7,7 +7,7 @@ tags: ["shortcodes", "privacy", "sample", "gist", "twitter", "youtube", "vimeo"]
 type: 'sample'
 ---
 
-Hugo には、リッチコンテンツのためのいくつかの[組み込みショートコード](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes)と[プライバシー設定](https://gohugo.io/about/hugo-and-gdpr/)、そして様々なソーシャルメディアの埋め込みを静的に、 JS なしで可能にする _simple shortcodes_ のセットが同梱されています。
+Hugo には、リッチコンテンツのためのいくつかの[組み込みショートコード](https://gohugo.io/content-management/shortcodes/#embedded)と[プライバシー設定](https://gohugo.io/about/hugo-and-gdpr/)、そして様々なソーシャルメディアの埋め込みを静的に、 JS なしで可能にする _simple shortcodes_ のセットが同梱されています。
 
 ## YouTube
 
@@ -17,9 +17,9 @@ Hugo には、リッチコンテンツのためのいくつかの[組み込み�
 
 ## Twitter
 
-この例はツイートを `twitter_simple` ショートコードを利用して出力しています。こちらは `user` と `id` の二つのパラメータを必須としています。
+この例はツイートを `x` ショートコードを利用して出力しています。こちらは `user` と `id` の二つのパラメータを必須としています。
 
-{{< twitter_simple user="DesignReviewed" id="1085870671291310081" >}}
+{{< x user="DesignReviewed" id="1085870671291310081" >}}
 
 代わりとして、 `tweet` ショートコードが完全にマークアップされた Twitter カードの埋め込みに利用できます、
 
