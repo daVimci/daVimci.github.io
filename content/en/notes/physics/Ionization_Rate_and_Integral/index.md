@@ -14,7 +14,7 @@ description: Introduced to impact ionization
 
 ## Impact ionization
 
-Consider a diode junction with applying the reverse bias, the built in electric field is constructed and forms the depletion region. We will expect that the charged particles are accelerated within this strong field region undergoing the scatter process when the applied voltage is high enough. Charged particles possess high energy that can collide to other bonded particles, to transfer excess energy to knock it into the conducting or valence band to create the electron-hole pair. This a serial of chain reaction can happen so that leads to the carrier multiplication and the avalanche breakdown. This scattering phenomenon is so-called impact ionization which can generate more carriers and amplify the current in the device.
+Consider a diode junction with applied the reverse bias, the built in electric field is constructed and forms the depletion region. We will expect that the charged particles are accelerated within this strong field region undergoing the scatter process when the applied voltage is high enough. Charged particles possess high energy that can collide to other bonded particles, to transfer excess energy to knock it into the conducting or valence band to create the electron-hole pair. This a serial of chain reaction can happen so that leads to the carrier multiplication and the avalanche breakdown. This scattering phenomenon is so-called impact ionization which can generate more carriers and amplify the current in the device.
 
 ![](./ionization.png "Moving electron collides the bonded particle to create the eletron-hole pair[1].")
 
